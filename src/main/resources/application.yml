@@ -1,0 +1,10 @@
+spring:
+  flyway:
+    url: jdbc:postgresql://localhost:5432/rulez
+    user: spring_auth
+    password: spring_auth
+    schemas: rulez
+  datasource:
+    password: spring_auth
+    username: spring_auth
+    url: jdbc:postgresql://localhost:5432/rulez?currentSchema=rulez
